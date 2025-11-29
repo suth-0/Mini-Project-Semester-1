@@ -97,7 +97,7 @@ int main(){
     }
     printf("\nWeekly Attendance Summary\n");
     printf("\n-------------------------\n");
-    printf("\nTotal Present Days of each student:\n");
+    printf("\nTotal Present Days:\n");
     for (i=0;i<10;i++){
         printf("Student %d: %d\n",i+1,totalP[i]);
     }
@@ -106,3 +106,4 @@ int main(){
     return 0;
 
 }
+
