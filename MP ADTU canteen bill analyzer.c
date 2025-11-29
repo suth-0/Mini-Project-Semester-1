@@ -84,10 +84,10 @@ int main(){
     }
     printf("Student's weekly spendings:\n");
     for (i=0; i<n; i++){
-        printf("Student %d: %d\n", i+1, Stotal[i]);
+        printf("Student %d total: %d\n", i+1, Stotal[i]);
     }
-    printf("Day with highest collection: %d\n", Dmax + 1);
-    printf("Highest spending student(s): ");
+    printf("Highest collection on %d\n", Dmax + 1);
+    printf("Highest spender: ");
     for (i=0; i<n; i++){
         if (Stotal[i] == Shighest)
             printf("Student %d ", i+1);
@@ -95,4 +95,5 @@ int main(){
     printf("\n");
     return 0;
 }
+
 
