@@ -52,8 +52,9 @@ int main(){
         else if (arr[i]==0)
         a++;
     }
-    printf("Present = %d\n",p);
-    printf("Absent= %d\n",a);
+    printf("Present: %d\n",p);
+    printf("Absent: %d\n",a);
     return 0;
 
 }
+
